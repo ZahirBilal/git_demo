@@ -11,6 +11,7 @@ git
 
 
 ## to link the local machine with github using ssh
+eval "$(ssh-agent -s)" # to start an ssh agent in background
 ssh-add ~/.ssh/zahir_ssh # zahir_ssh = name of the dir where public key
 
 #branching 
